@@ -2,7 +2,7 @@ name: my_shop
 
 ide:
   intellij:
-    moduleNamePrefix: 'project_'
+    moduleNamePrefix: 'shop_'
 
 packages:
   - app/**
