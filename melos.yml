@@ -1,0 +1,9 @@
+name: my_project
+
+ide:
+  intellij:
+    moduleNamePrefix: 'project_'
+
+packages:
+  - app/**
+  - packages/**
