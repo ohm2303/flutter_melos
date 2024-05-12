@@ -34,3 +34,7 @@ flutter:
       fonts:
         - asset: assets/fonts/SugarCream.otf
           weight: 200
+    - family: Orbitron
+      fonts:
+        - asset: assets/fonts/Orbitron-VariableFont_wght.ttf
+          weight: 100
