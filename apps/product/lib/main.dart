@@ -1,8 +1,8 @@
-import 'package:core/dependency_injection/inject.dart';
-import 'package:core/router/router.dart';
 import 'package:core_libs/dependency_injection/get_it.dart';
 import 'package:flutter/material.dart';
 import 'package:product/infrastucture/dependency_injection/inject.dart';
+
+import 'infrastucture/router/router.dart';
 
 
 void main() {

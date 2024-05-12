@@ -1,27 +1,35 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../theme/color/theme_provider.dart';
+import '../../../theme/theme_state.dart';
 import '../../elements/inputs/search_input.dart';
 
-class HomeNavbar extends StatelessWidget {
+class HomeNavbar extends ConsumerWidget {
   const HomeNavbar({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context,WidgetRef ref) {
+    final themeNotifier = ref.read(appThemeProvider.notifier);
+    final themeProvider = ref.watch(appThemeProvider);
+
     return  Container(
       color:Colors.black,
-      child: const Padding(
-        padding: EdgeInsets.all(8.0),
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Expanded(child: SearchInput()),
+            const Expanded(child: SearchInput()),
             IconButton(
-                onPressed: null,
+                onPressed: themeNotifier.switchTheme,
                 icon: Icon(
-                  Icons.info_outline_rounded,
+                  themeProvider.selectedTheme == Themes.light
+                      ? Icons.dark_mode
+                      : Icons.light_mode,
                   color: Colors.white70,
                   size: 40,
                 )

@@ -16,6 +16,8 @@ dependencies:
   core_libs:
     path: ../../packages/core_libs
   go_router: ^14.0.2
+  core_ui:
+    path: ../../packages/core_ui
 
 
 dev_dependencies:

@@ -5,5 +5,9 @@ ide:
     moduleNamePrefix: 'shop_'
 
 packages:
-  - app/**
+  - apps/**
   - packages/**
+
+scripts:
+  code-gen:
+    run: 'dart run build_runner build'
