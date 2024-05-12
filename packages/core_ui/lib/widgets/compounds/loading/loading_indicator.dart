@@ -11,7 +11,7 @@ class Loading extends StatelessWidget {
             width: 50,
             height: 50,
             child: LoadingIndicator(
-              indicatorType: Indicator.lineScalePulseOut,
+              indicatorType: Indicator.ballBeat,
               colors: [
                 Colors.red,
                 Colors.orange,

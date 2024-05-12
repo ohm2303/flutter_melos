@@ -46,6 +46,7 @@ class ProductCard extends StatelessWidget {
                           SmallText(
                             title: product.name,
                             color: Colors.white,
+                            // family: ,
                           )
                       ),
                       PriceText(price: '${product.price}\$'),

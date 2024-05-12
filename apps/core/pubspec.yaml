@@ -29,3 +29,8 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+  fonts:
+    - family: SugarCream
+      fonts:
+        - asset: assets/fonts/SugarCream.otf
+          weight: 200

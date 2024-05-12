@@ -1,4 +1,5 @@
 import 'package:core_libs/dependency_injection/get_it.dart';
+import 'package:core_ui/theme/color/theme_provider.dart';
 import 'package:core_ui/widgets/compounds/loading/loading_indicator.dart';
 import 'package:core_ui/widgets/compounds/navbar/home_navbar.dart';
 import 'package:flutter/material.dart';
@@ -38,9 +39,9 @@ class _HomePageState extends ConsumerState<HomePage> {
   @override
   Widget build(BuildContext context) {
     final homeVM = ref.watch(homeViewModelProvider);
-
+    final color = ref.watch(appThemeProvider).themeColor;
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: color.backgroundPrimary,
       body: SafeArea(
         child: Column(
           children: [

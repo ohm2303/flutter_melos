@@ -27,8 +27,8 @@ final List<ProductToDisplay> products = [
 ];
 
 final Map<String,String> categoryImages = {
-"electronics":"https://images.unsplash.com/photo-1703591923722-9ff005df71cb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDV8RS0tX3BuSWlyRzR8fGVufDB8fHx8fA%3D%3D",
-"jewelery":"https://images.unsplash.com/photo-1581067126294-93267874f136?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8RS0tX3BuSWlyRzR8fGVufDB8fHx8fA%3D%3D",
-"men's clothing":"https://images.unsplash.com/photo-1564055475189-a0ebf0d3b22a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8RS0tX3BuSWlyRzR8fGVufDB8fHx8fA%3D%3D",
-"women's clothing":"https://images.unsplash.com/photo-1713122446901-40884feae0b2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D"
+"electronics":"https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWxlY3Ryb25pY3N8ZW58MHx8MHx8fDA%3D",
+"jewelery":"https://images.unsplash.com/photo-1577883751617-803a40e0057b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8amV3ZWxlcnl8ZW58MHx8MHx8fDA%3D",
+"men's clothing":"https://plus.unsplash.com/premium_photo-1690359589674-b85931ae8d28?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVuJ3MlMjBjbG90aGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+"women's clothing":"https://images.unsplash.com/photo-1495121605193-b116b5b9c5fe?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d29tZW4ncyUyMGNsb3RoaW5nfGVufDB8fDB8fHww"
 };
